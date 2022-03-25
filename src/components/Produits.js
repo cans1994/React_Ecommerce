@@ -1,12 +1,12 @@
-import Cactus from '../assets/cactus.jpg'
-import Pink from '../assets/pink.jpg'
-import Rose from '../assets/rose.jpg'
+import Cactus from "../assets/cactus.jpg";
+import Pink from "../assets/pink.jpg";
+import Rose from "../assets/rose.jpg";
 
 function Produits() {
-    return (
-        <div className="Produits">
-            <h2>Voici nos produits</h2>
-           {/*  <section className="Selection">
+  return (
+    <div className="Produits">
+      {/* <h2>Voici nos produits</h2> */}
+      {/*  <section className="Selection">
                 <ul>
                     <li>
                         Cactus plutôt mignon<img src={Cactus} className="cactusounet" alt="cactus bon sang!" />
@@ -22,8 +22,8 @@ function Produits() {
                     </li>
                 </ul>
             </section> */}
-        </div>
-    )
+    </div>
+  );
 }
 
-export default Produits
+export default Produits;
